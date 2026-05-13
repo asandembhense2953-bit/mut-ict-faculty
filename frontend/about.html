@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faculty of ICT — About Mangosuthu University of Technology</title>
+<meta name="description" content="Learn about the Faculty of ICT at Mangosuthu University of Technology - established 2005, industry-aligned curriculum, state-of-the-art facilities in Umlazi, Durban.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<div class="util-bar">
+  <div class="util-inner">
+    <div class="util-left">
+      <a href="tel:+27319077111"><i class="fas fa-phone-alt"></i>+27 31 907 7111</a>
+      <a href="mailto:ict@mut.ac.za"><i class="fas fa-envelope"></i>ict@mut.ac.za</a>
+      <span><i class="fas fa-map-marker-alt" style="color:var(--gold)"></i>Building 10, MUT Main Campus, Umlazi, Durban, 4031</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:1.5rem;">
+      <span id="utilTime" style="display:flex;align-items:center;gap:0.4rem;"><i class="far fa-clock" style="color:var(--gold)"></i></span>
+      <span style="display:flex;align-items:center;gap:0.4rem;"><i class="fas fa-map-marker-alt" style="color:var(--gold)"></i>KwaZulu-Natal, South Africa</span>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="brand-logo" style="background:transparent;border-radius:0;width:54px;height:54px;padding:2px;">
+        <img src="https://sagea.org.za/wp-content/uploads/2023/06/MUT-1200x647.png" alt="MUT Logo" style="width:100%;height:100%;object-fit:contain;">
+      </div>
+      <div class="brand-text">
+        <strong>Faculty of ICT</strong>
+        <span>Information & Communication Technology</span>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="courses.html">Programmes</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="contact.html">Contact</a>
+      <a href="#" onclick="openModal('globalSearchModal'); return false;"><i class="fas fa-search"></i> Search</a>
+      <a href="#" onclick="openModal('registerModal')"><i class="fas fa-user-plus"></i> Register</a>
+      <a href="#" onclick="openModal('loginModal')"><i class="fas fa-sign-in-alt"></i> Login</a>
+      <a href="https://cao.ac.za" target="_blank" rel="noopener" class="nav-apply">Apply</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <button class="dm-toggle" id="dmToggle" aria-label="Toggle dark mode"><i class="fas fa-moon" id="dmIcon"></i></button>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html"><i class="fas fa-home"></i>Home</a>
+  <a href="about.html"><i class="fas fa-info-circle"></i>About</a>
+  <a href="courses.html"><i class="fas fa-graduation-cap"></i>Programmes</a>
+  <a href="admissions.html"><i class="fas fa-file-alt"></i>Admissions</a>
+  <a href="contact.html"><i class="fas fa-envelope"></i>Contact</a>
+  <a href="#" onclick="openModal('globalSearchModal'); return false;"><i class="fas fa-search"></i>Search</a>
+  <a href="#" onclick="openModal('registerModal')"><i class="fas fa-user-plus"></i>Register</a>
+  <a href="#" onclick="openModal('loginModal')"><i class="fas fa-sign-in-alt"></i>Login</a>
+  <a href="https://cao.ac.za" target="_blank" rel="noopener" class="mob-apply"><i class="fas fa-file-alt"></i>Apply Now →</a>
+</div>
+</header>
+
+<main>
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="about-grid">
+        <div class="reveal">
+          <div class="about-img">
+            <img src="https://i.postimg.cc/J4QWqJxD/60e1f8bd516d4d41b0b30e1491c940a0.webp" alt="MUT ICT Students in Computer Lab" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80'">
+            <div class="about-img-badge">
+              <i class="fas fa-university"></i>
+              <div><strong>Founded 2005</strong><span>Excellence in ICT Education</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal d1">
+          <div class="sec-label">About Our Faculty</div>
+          <h2 class="sec-title">Excellence in ICT Education Since 2005</h2>
+          <p style="color:var(--muted);font-size:0.95rem;line-height:1.8;margin-bottom:1rem;">
+            The <strong>Faculty of Information and Communication Technology</strong> at Mangosuthu University of Technology (MUT) is a leading provider of ICT education in KwaZulu-Natal. Located in the vibrant community of Umlazi, Durban, we have been producing industry-ready graduates since 2005.
+          </p>
+          <p style="color:var(--muted);font-size:0.95rem;line-height:1.8;margin-bottom:1rem;">
+            Our faculty is staffed by <strong>highly qualified academics and industry professionals</strong> who bring real-world experience from leading tech companies. We maintain strong partnerships with <strong>Microsoft, Cisco, and local tech enterprises</strong> to ensure our curriculum stays relevant and cutting-edge.
+          </p>
+          <p style="color:var(--muted);font-size:0.95rem;line-height:1.8;margin-bottom:1.5rem;">
+            We pride ourselves on our <strong>state-of-the-art facilities</strong>, including enterprise networking labs with Cisco equipment, modern programming labs, and 24/7 computer access. Our students benefit from hands-on learning, industry internships, and strong career placement support.
+          </p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">
+            <span class="chip"><i class="fas fa-code"></i> Software Development</span>
+            <span class="chip"><i class="fas fa-network-wired"></i> Networking & Security</span>
+            <span class="chip"><i class="fas fa-database"></i> Data Management</span>
+            <span class="chip"><i class="fas fa-shield-alt"></i> Cybersecurity</span>
+            <span class="chip"><i class="fas fa-cloud"></i> Cloud Computing</span>
+            <span class="chip"><i class="fab fa-internet-explorer"></i> Web Technologies</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="info-cards" style="margin-top:3rem;">
+        <div class="info-card reveal d1">
+          <div class="ic-icon"><i class="fas fa-chalkboard-user"></i></div>
+          <h3>Expert Academic Staff</h3>
+          <p>Learn from PhD-holding professors and industry-certified instructors with experience at Google, IBM, Microsoft, and Cisco Systems.</p>
+        </div>
+        <div class="info-card reveal d2">
+          <div class="ic-icon"><i class="fas fa-flask"></i></div>
+          <h3>Modern Laboratory Facilities</h3>
+          <p>Access enterprise-grade networking labs with Cisco equipment, programming labs with dual monitors, and high-speed fibre internet.</p>
+        </div>
+        <div class="info-card reveal d3">
+          <div class="ic-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Industry Partnerships</h3>
+          <p>Strong ties with Microsoft, Cisco, MTN, Vodacom, and local tech startups provide internship and employment opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission Section -->
+  <section class="section" style="background:var(--off);">
+    <div class="section-inner">
+      <div class="reveal" style="text-align:center;">
+        <div class="sec-label" style="justify-content:center;">Our Purpose</div>
+        <h2 class="sec-title">Vision & Mission</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;margin-top:2rem;">
+        <div class="reveal d1" style="background:var(--card);border-radius:var(--r2);padding:2rem;border:1px solid var(--border);">
+          <i class="fas fa-eye" style="font-size:2.5rem;color:var(--gold);margin-bottom:1rem;"></i>
+          <h3 style="margin-bottom:1rem;">Our Vision</h3>
+          <p style="color:var(--muted);line-height:1.8;">To be a premier faculty of ICT education in Africa, producing innovative, ethical, and industry-ready graduates who drive digital transformation across the continent.</p>
+        </div>
+        <div class="reveal d2" style="background:var(--card);border-radius:var(--r2);padding:2rem;border:1px solid var(--border);">
+          <i class="fas fa-bullseye" style="font-size:2.5rem;color:var(--gold);margin-bottom:1rem;"></i>
+          <h3 style="margin-bottom:1rem;">Our Mission</h3>
+          <p style="color:var(--muted);line-height:1.8;">To provide high-quality, accessible ICT education through innovative teaching, cutting-edge research, and meaningful industry partnerships that empower students for successful careers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Values Section -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="reveal" style="text-align:center;">
+        <div class="sec-label" style="justify-content:center;">What We Stand For</div>
+        <h2 class="sec-title">Our Core Values</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:2rem;">
+        <div class="reveal d1" style="text-align:center;">
+          <div style="width:70px;height:70px;background:rgba(123,28,46,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;">
+            <i class="fas fa-graduation-cap" style="font-size:1.8rem;color:var(--navy);"></i>
+          </div>
+          <h3>Academic Excellence</h3>
+          <p style="color:var(--muted);font-size:0.85rem;">Pursuing the highest standards in teaching and learning</p>
+        </div>
+        <div class="reveal d2" style="text-align:center;">
+          <div style="width:70px;height:70px;background:rgba(123,28,46,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;">
+            <i class="fas fa-handshake" style="font-size:1.8rem;color:var(--navy);"></i>
+          </div>
+          <h3>Industry Integration</h3>
+          <p style="color:var(--muted);font-size:0.85rem;">Bridging theory with real-world practice</p>
+        </div>
+        <div class="reveal d3" style="text-align:center;">
+          <div style="width:70px;height:70px;background:rgba(123,28,46,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;">
+            <i class="fas fa-lightbulb" style="font-size:1.8rem;color:var(--navy);"></i>
+          </div>
+          <h3>Innovation</h3>
+          <p style="color:var(--muted);font-size:0.85rem;">Encouraging creative thinking and new ideas</p>
+        </div>
+        <div class="reveal d4" style="text-align:center;">
+          <div style="width:70px;height:70px;background:rgba(123,28,46,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;">
+            <i class="fas fa-users" style="font-size:1.8rem;color:var(--navy);"></i>
+          </div>
+          <h3>Community Engagement</h3>
+          <p style="color:var(--muted);font-size:0.85rem;">Serving and uplifting our local community</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand"><div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.25rem;"><img src="https://sagea.org.za/wp-content/uploads/2023/06/MUT-1200x647.png" alt="MUT Logo" style="width:48px;height:48px;object-fit:contain;flex-shrink:0;"><div><div style="font-weight:700;font-size:0.95rem;color:var(--white);">Faculty of ICT</div><div style="font-size:0.7rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.06em;">Mangosuthu University of Technology</div></div></div><p>Empowering future ICT leaders through quality education, research, and industry partnerships. Located in Umlazi, Durban, KwaZulu-Natal.</p><div class="social-row"><a href="https://www.facebook.com/MUTUmlazi/" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-facebook-f"></i></a><a href="https://x.com/MUTcampus" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-twitter"></i></a><a href="https://www.linkedin.com/school/mangosuthu-university-of-technology/" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-linkedin-in"></i></a><a href="https://www.instagram.com/mut_campus" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-instagram"></i></a><a href="https://www.youtube.com/c/MangosuthuUniversityofTechnology" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-youtube"></i></a><a href="https://www.tiktok.com/@mutcampus" target="_blank" rel="noopener" class="soc-btn"><i class="fab fa-tiktok"></i></a></div></div>
+      <div class="footer-col"><h4>Quick Links</h4><a href="index.html"><i class="fas fa-chevron-right"></i>Home</a><a href="about.html"><i class="fas fa-chevron-right"></i>About Faculty</a><a href="courses.html"><i class="fas fa-chevron-right"></i>Programmes</a><a href="admissions.html"><i class="fas fa-chevron-right"></i>Admissions</a></div>
+      <div class="footer-col"><h4>Resources</h4><a href="https://www.mut.ac.za/student-portal/" target="_blank" rel="noopener"><i class="fas fa-chevron-right"></i>Student Portal</a><a href="https://mutelearn.mut.ac.za/" target="_blank" rel="noopener"><i class="fas fa-chevron-right"></i>Blackboard (eLearning)</a><a href="https://www.mut.ac.za/" target="_blank" rel="noopener"><i class="fas fa-chevron-right"></i>MUT Official Website</a><a href="https://cao.ac.za" target="_blank" rel="noopener"><i class="fas fa-chevron-right"></i>Apply via CAO</a><a href="https://www.nsfas.org.za/" target="_blank" rel="noopener"><i class="fas fa-chevron-right"></i>NSFAS Financial Aid</a></div>
+      <div class="footer-col"><h4>Contact Us</h4><div class="footer-contact"><p><i class="fas fa-map-marker-alt"></i>Building 10, MUT Main Campus, Umlazi, Durban, 4031</p><p><i class="fas fa-phone-alt"></i>+27 31 907 7111</p><p><i class="fas fa-envelope"></i>ict@mut.ac.za</p><p><i class="fas fa-clock"></i>Mon–Fri: 08:00–16:30</p></div></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="yr"></span> Faculty of ICT — Mangosuthu University of Technology. All rights reserved.</span><span>Designed with <i class="fas fa-heart"></i> for the future of technology education in South Africa</span></div>
+  </div>
+</footer>
+
+<!-- Modals (same as before) -->
+<div class="modal" id="tourModal"><div class="modal-box"><div class="modal-head"><h2><i class="fas fa-calendar-alt" style="color:var(--gold);margin-right:8px;"></i>Schedule a Campus Tour</h2><button class="modal-close" onclick="closeModal('tourModal')"><i class="fas fa-times"></i></button></div><div class="modal-body"><div class="success-msg" id="tourSuccessMsg"><i class="fas fa-check-circle"></i>Tour scheduled! We'll send a confirmation email with all details.</div><form id="tourForm"><div class="form-section-heading">Your Details</div><div class="form-group"><label>First Name<span class="req">*</span></label><input class="form-control" type="text" id="tourFirstName" required></div><div class="form-group"><label>Last Name<span class="req">*</span></label><input class="form-control" type="text" id="tourLastName" required></div><div class="form-group"><label>Email Address<span class="req">*</span></label><input class="form-control" type="email" id="tourEmail" required><span class="field-hint">We'll send your tour confirmation here</span></div><div class="form-group"><label>Phone Number</label><input class="form-control" type="tel" id="tourPhone"></div><div class="form-section-heading">Tour Preferences</div><div class="form-group"><label>Preferred Date & Time<span class="req">*</span></label><input class="form-control" type="datetime-local" id="tourDateTime" required><span class="field-hint">Tours run Monday–Friday, 09:00–15:00</span></div><div class="form-group"><label>Number of Visitors<span class="req">*</span></label><select class="form-control" id="tourVisitors" required><option value="">Select group size</option><option>1</option><option>2-5</option><option>6-10</option><option>10+</option></select></div><div class="form-group"><label>Special Requests or Questions</label><textarea class="form-control" id="tourMessage"></textarea></div><div class="form-actions"><button type="submit" class="btn btn-gold btn-form-primary"><i class="fas fa-calendar-check"></i>Schedule My Tour</button><button type="button" class="btn btn-outline-navy" onclick="closeModal('tourModal')">Cancel</button></div></form></div></div></div>
+
+<div class="modal" id="contactModal">
+  <div class="modal-box">
+    <div class="modal-head"><h2><i class="fas fa-envelope" style="color:var(--gold);margin-right:8px;"></i>Contact the Department</h2><button class="modal-close" onclick="closeModal('contactModal')"><i class="fas fa-times"></i></button></div>
+    <div class="modal-body">
+      <div id="contactModalErrorMsg" class="error-msg" style="display:none; background:#fee; color:#c00; padding:12px; border-radius:8px; margin-bottom:15px; font-size:14px;"></div>
+      <div class="success-msg" id="contactModalSuccessMsg"><i class="fas fa-check-circle"></i>Message sent! We'll respond within 24 hours.</div>
+      <form id="contactForm">
+        <div class="form-section-heading">Your Information</div>
+        <div class="form-group"><label>First Name<span class="req">*</span></label><input class="form-control" type="text" id="contactFirstName" required></div>
+        <div class="form-group"><label>Last Name<span class="req">*</span></label><input class="form-control" type="text" id="contactLastName" required></div>
+        <div class="form-group"><label>Email<span class="req">*</span></label><input class="form-control" type="email" id="contactEmail" required></div>
+        <div class="form-group"><label>Phone</label><input class="form-control" type="tel" id="contactPhone"></div>
+        <div class="form-section-heading">Your Message</div>
+        <div class="form-group"><label>Subject<span class="req">*</span></label><input class="form-control" type="text" id="contactSubject" required></div>
+        <div class="form-group"><label>Message<span class="req">*</span></label><textarea class="form-control" id="contactMessage" rows="5" required></textarea></div>
+        <button type="submit" class="btn btn-gold btn-form-primary"><i class="fas fa-paper-plane"></i>Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="registerModal">
+  <div class="modal-box" style="max-width: 550px;">
+    <div class="modal-head"><h2><i class="fas fa-user-plus"></i> Student Registration</h2><button class="modal-close" onclick="closeModal('registerModal')">&times;</button></div>
+    <div class="modal-body">
+      <div id="registerErrorMsg" class="error-msg" style="display:none; background:#fee; color:#c00; padding:12px; border-radius:8px; margin-bottom:15px; font-size:14px;"></div>
+      <form id="registerForm">
+        <div class="form-row"><div class="form-group"><label>First Name<span class="req">*</span></label><input type="text" id="regFirstName" class="form-control" required></div><div class="form-group"><label>Last Name<span class="req">*</span></label><input type="text" id="regLastName" class="form-control" required></div></div>
+        <div class="form-group"><label>Student Number<span class="req">*</span></label><input type="text" id="regStudentNumber" class="form-control" placeholder="e.g., 20240001" required></div>
+        <div class="form-group"><label>Email<span class="req">*</span></label><input type="email" id="regEmail" class="form-control" readonly style="background:#f0f0f0" required></div>
+        <div class="form-group"><label>Phone Number (10 digits)<span class="req">*</span></label><input type="tel" id="regPhone" class="form-control" placeholder="0712345678" required></div>
+        <div class="form-row"><div class="form-group"><label>Course<span class="req">*</span></label>
+          <select id="regCourse" class="form-control" required>
+            <option value="Diploma in ICT">Diploma in ICT (3 years)</option>
+            <option value="Extended Curriculum Programme">Extended Curriculum Programme (4 years inc. Foundation)</option>
+            <option value="Advanced Diploma in ICT">Advanced Diploma in ICT (1 year)</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Year Level<span class="req">*</span></label>
+          <select id="regYearLevel" class="form-control" required>
+            <option value="1">Year 1</option>
+            <option value="2">Year 2</option>
+            <option value="3">Year 3</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group"><label>Password<span class="req">*</span></label><input type="password" id="regPassword" class="form-control" required></div>
+      <div class="form-group"><label>Confirm Password<span class="req">*</span></label><input type="password" id="regConfirmPassword" class="form-control" required></div>
+      <div class="field-hint" style="font-size:0.7rem; color:var(--muted); margin-bottom:1rem;">
+        Password must have: 8+ characters, Uppercase, Lowercase, Number, Special character (@$!%*?&)
+      </div>
+      <button type="submit" class="btn btn-gold btn-form-primary">Register Now</button>
+      <p style="text-align:center; margin-top:1rem;">Already have an account? <a href="#" onclick="closeModal('registerModal'); openModal('loginModal'); return false;">Login here</a></p>
+    </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="loginModal">
+  <div class="modal-box" style="max-width: 400px;">
+    <div class="modal-head"><h2><i class="fas fa-sign-in-alt"></i> Student Login</h2><button class="modal-close" onclick="closeModal('loginModal')">&times;</button></div>
+    <div class="modal-body">
+      <div id="loginErrorMsg" class="error-msg" style="display:none; background:#fee; color:#c00; padding:12px; border-radius:8px; margin-bottom:15px; font-size:14px;"></div>
+      <form id="loginForm">
+        <div class="form-group"><label>Student Number<span class="req">*</span></label><input type="text" id="loginStudentNumber" class="form-control" placeholder="Enter your 8-digit student number" required></div>
+        <div class="form-group"><label>Password<span class="req">*</span></label><input type="password" id="loginPassword" class="form-control" placeholder="Enter your password" required></div>
+        <button type="submit" class="btn btn-gold btn-form-primary">Login</button>
+        <p style="text-align:center; margin-top:1rem;">Don't have an account? <a href="#" onclick="closeModal('loginModal'); openModal('registerModal'); return false;">Register here</a></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="progModal"><div class="modal-box"><div class="modal-head"><h2 id="progModalTitle">Programme Details</h2><button class="modal-close" onclick="closeModal('progModal')"><i class="fas fa-times"></i></button></div><div class="modal-body" id="progModalBody"></div></div></div>
+
+<div class="modal" id="globalSearchModal"><div class="modal-box global-search-box"><div class="search-input-wrap"><i class="fas fa-search"></i><input type="text" id="globalSearchInput" placeholder="Search programmes, admissions, contact, facilities... (Ctrl+K to focus)" autocomplete="off"><span class="search-hint">Press ESC to close</span></div><div class="search-results-global" id="globalSearchResults"></div></div></div>
+
+<div class="chat-fab-wrap"><button class="chat-fab" id="chatFab" onclick="toggleChat()"><i class="fas fa-robot"></i><div class="chat-notif">AI</div></button></div>
+<div class="chat-win" id="chatWin"><div class="chat-head"><div class="ch-av"><i class="fas fa-robot"></i></div><div class="ch-info"><strong>ICT Assistant</strong><span class="ch-status">Online · Powered by AI</span></div><button class="chat-close" onclick="toggleChat()"><i class="fas fa-times"></i></button></div><div class="chat-msgs" id="chatMsgs"><div class="cm bot"><div class="cm-av bot"><i class="fas fa-robot"></i></div><div class="cm-bub">👋 Hi! I'm the MUT ICT Department Assistant. Ask me anything about programmes, admissions, fees, or how to apply!</div></div></div><div class="chat-quick" id="chatQuick"><button class="qbtn" data-msg="What programmes do you offer?">📚 Programmes</button><button class="qbtn" data-msg="What are the admission requirements?">🎓 Admission</button><button class="qbtn" data-msg="How do I apply?">📝 How to Apply</button><button class="qbtn" data-msg="Where is MUT located?">📍 Location</button><button class="qbtn" data-msg="What careers can I pursue?">💼 Careers</button></div><div class="chat-toolbar"><button class="cvoice" id="voiceBtn" type="button"><i class="fas fa-microphone" id="voiceIcon"></i></button><span class="voice-status" id="voiceStatus">Tap mic to speak</span></div><div class="chat-input-row"><input class="ci" id="chatInput" type="text" placeholder="Ask anything about ICT at MUT…" autocomplete="off"><button class="csend" id="chatSend" type="button"><i class="fas fa-paper-plane"></i></button></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
