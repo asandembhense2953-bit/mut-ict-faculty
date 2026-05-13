@@ -21,7 +21,7 @@ A **full-stack web application** for the ICT Department at Mangosuthu University
 
 ## 🎥 Video Presentation
 
-[Click here to watch the presentation](https://www.loom.com/share/YOUR_LINK_HERE)
+[Click here to watch the presentation](https://youtu.be/GLn4AY4WUC8)
 
 
 
